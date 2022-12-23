@@ -14,6 +14,7 @@
 		7BE0C8E22944A5DC00CD4CA2 /* pantryPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE0C8E12944A5DC00CD4CA2 /* pantryPalTests.swift */; };
 		7BE0C8EC2944A5DC00CD4CA2 /* pantryPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE0C8EB2944A5DC00CD4CA2 /* pantryPalUITests.swift */; };
 		7BE0C8EE2944A5DC00CD4CA2 /* pantryPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE0C8ED2944A5DC00CD4CA2 /* pantryPalUITestsLaunchTests.swift */; };
+		7BE0C9182954369600CD4CA2 /* shoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE0C9172954369600CD4CA2 /* shoppingListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7BE0C8E72944A5DC00CD4CA2 /* pantryPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pantryPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE0C8EB2944A5DC00CD4CA2 /* pantryPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantryPalUITests.swift; sourceTree = "<group>"; };
 		7BE0C8ED2944A5DC00CD4CA2 /* pantryPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantryPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BE0C9172954369600CD4CA2 /* shoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		7BE0C8CF2944A5DA00CD4CA2 /* pantryPal */ = {
 			isa = PBXGroup;
 			children = (
+				7BE0C9172954369600CD4CA2 /* shoppingListView.swift */,
 				7BE0C8D02944A5DA00CD4CA2 /* pantryPalApp.swift */,
 				7BE0C8D22944A5DA00CD4CA2 /* ContentView.swift */,
 				7BE0C8D42944A5DC00CD4CA2 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BE0C8D32944A5DA00CD4CA2 /* ContentView.swift in Sources */,
+				7BE0C9182954369600CD4CA2 /* shoppingListView.swift in Sources */,
 				7BE0C8D12944A5DA00CD4CA2 /* pantryPalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
